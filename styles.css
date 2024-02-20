@@ -1,0 +1,39 @@
+body {
+    width: 350px;
+    padding: 10px;
+    background-color: #111;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  h1{
+    color: #fff;
+  }
+  i{
+    font-size: 20px;
+  }
+  button {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border-style: double;
+    width: 50%;
+    height: 50%;
+  }
+  
+  button:hover{
+    background-color: yellow;
+    color: black;
+  }
+  *::selection{
+    color: black;
+    background-color: yellow;
+  }
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+  }

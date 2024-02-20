@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Islamic Quotes",
+  "version": "1.0",
+  "description": "Developed By Muhammad Awais",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "isl.png",
+      "48": "isl.png",
+      "128": "isl.png"
+    }
+  },
+  "icons": {
+    "16": "isl.png",
+    "48": "isl.png",
+    "128": "isl.png"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["popup.js"]
+    }
+  ]
+ 
+}
